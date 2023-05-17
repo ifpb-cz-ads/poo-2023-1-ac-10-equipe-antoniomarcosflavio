@@ -8,7 +8,7 @@ public class AppRegistraAluno2 {
         aluno2.setNotaPortugues(10.0);
         aluno2.setNotaGeografia(10.0);
 
-        aluno2.imprimir(aluno2.getNotaMatematica ,aluno2.getNotaPortugues ,aluno2.getNotaGeografia);
+        aluno2.imprimir(aluno2.getNotaMatematica() ,aluno2.getNotaPortugues() ,aluno2.getNotaGeografia());
     }
 
 }

@@ -16,7 +16,7 @@ public class RegistraAluno {
         return endereco;
     }
 
-    public String getIdade() {
+    public int getIdade() {
         return idade;
     }
 
@@ -28,7 +28,7 @@ public class RegistraAluno {
         this.endereco = endereco;
     }
 
-    public void setIdade(String idade) {
+    public void setIdade(int idade) {
         this.idade = idade;
     }
 
