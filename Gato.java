@@ -15,6 +15,6 @@ public class Gato extends Mamifero {
     }
     @Override
     public void brincar() {
-        this.felicidade +=2
+        this.felicidade +=2;
     }
 }

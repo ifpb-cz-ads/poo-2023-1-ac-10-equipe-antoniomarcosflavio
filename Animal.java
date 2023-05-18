@@ -1,10 +1,10 @@
 public class Animal {
-    private String nome;
-    private double peso;
-    private String sexo;
+    protected String nome;
+    protected double peso;
+    protected String sexo;
     protected float fome;
     protected float sono;
-    private float felicidade;
+    protected float felicidade;
 
     public String getNome() {
         return this.nome;
